@@ -36,7 +36,7 @@ collections:
 navigation:
   - title: 主页 Home
     link: /
-  - title: 科研 Research
+  - title: 爱好 hobby
     link: /research.html
-  - title: 论文 Publications
+  - title: 联系方式 conneting
     link: /publications.html
