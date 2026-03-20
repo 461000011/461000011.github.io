@@ -19,7 +19,7 @@ role-tables:
     image: false
 
 ---
-
+<!-- 文本框 -->
 <div class="jumbotron">
 	<p>
 		<!-- 加粗<b></b> -->
@@ -30,33 +30,7 @@ role-tables:
     </p> -->
 </div>
 
-<gradio-app src="https://liaohongda-test01.hf.space" theme_mode="light"></gradio-app>
-
-<!-- News -->
-<section>
-    <h2>News</h2>
-    <ul class="news list-unstyled">
-        {% for post in site.posts limit: site.front_page_news %}
-            {% include news-item.html item=post %}
-        {% endfor %}
-    </ul>
-    {% assign numposts = site.posts | size %}
-    {% if numposts >= 1 %}
-        <p>
-            <span class="fa fa-fw fa-history"></span>
-            <a href="{{ site.base }}/blog.html">Older posts&hellip;</a>
-        </p>
-    {% endif %}
-</section>
-
-<script
-	type="module"
-	src="https://gradio.s3-us-west-2.amazonaws.com/4.41.0/gradio.js"
-></script>
-
-<gradio-app src="https://xiaohang07-slices.hf.space" theme_mode="light"></gradio-app>
-
-
+<!-- 图片文本框 -->
 <!-- <!-- <div id="people">
     <h2>People</h2>
     {% for role-table in page.role-tables %}
@@ -71,3 +45,33 @@ role-tables:
         </section>
     {% endfor %}
 </div> -->
+
+
+<gradio-app src="https://liaohongda-test01.hf.space" theme_mode="light"></gradio-app>
+
+<!-- <!-- News -->
+<section>
+    <h2>News</h2>
+    <ul class="news list-unstyled">
+        {% for post in site.posts limit: site.front_page_news %}
+            {% include news-item.html item=post %}
+        {% endfor %}
+    </ul>
+    {% assign numposts = site.posts | size %}
+    {% if numposts >= 1 %}
+        <p>
+            <span class="fa fa-fw fa-history"></span>
+            <a href="{{ site.base }}/blog.html">Older posts&hellip;</a>
+        </p>
+    {% endif %}
+</section> -->
+
+<!-- <script
+	type="module"
+	src="https://gradio.s3-us-west-2.amazonaws.com/4.41.0/gradio.js"
+></script> -->
+
+<!-- <gradio-app src="https://xiaohang07-slices.hf.space" theme_mode="light"></gradio-app> -->
+
+
+
