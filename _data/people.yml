@@ -1,13 +1,18 @@
-
-
-
 profx:
-    display_name: "肖航  Hang Xiao"
-    github: xiaohang007
+    display_name: "廖鸿达  LIAO Hongda"
+    github: 461000011
     role: faculty
-    image: /img/people/hang.jpg
-    bio: 助理教授  Assistant Professor
-    webpage: "https://scholars.ln.edu.hk/en/persons/hang-xiao"
+    image: /img/people/Photograph for EEP -LIAO Hongda.jpg
+    bio: 
+    webpage: ""
+
+# profx:
+#     display_name: "肖航  Hang Xiao"
+#     github: xiaohang007
+#     role: faculty
+#     image: /img/people/hang.jpg
+#     bio: 助理教授  Assistant Professor
+#     webpage: "https://scholars.ln.edu.hk/en/persons/hang-xiao"
 
 # scott:
 #     display_name: "Scott Summers"
