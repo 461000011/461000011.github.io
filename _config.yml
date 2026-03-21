@@ -27,16 +27,16 @@ front_page_news: 8
 # Base pathname for links.
 base: ''
 
-# make pages for the _projects folder
-collections:
-  projects:
-    output: true
+# # make pages for the _projects folder
+# collections:
+#   projects:
+#     output: true
 
 # Navigation bar links.
 navigation:
   - title: 主页 Home
     link: /
   - title: 爱好 hobby
-    link: /research.html
+    link: /
   - title: 联系方式 conneting
-    link: /publications.html
+    link: /
